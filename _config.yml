@@ -1,0 +1,104 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+darkmode: true
+
+# Personal info
+name: Joe Stanulis
+title: Senior Solutions Engineer
+email: joe.stanulis@pm.me
+url: "https://jstan12.github.io"
+theme: sproogen/modern-resume-theme
+
+additional_links:
+- title: LinkedIn
+  icon: fab fa-linkedin
+  url: https://www.linkedin.com/in/e3421aabad4e4e859564679b93da5f0c/
+
+# About Section
+about_title: About Me
+about_profile_image: images/profile.png
+about_content: |
+  Hi, my name's Joe and I'm a Senior Solutions Engineer with a almost a decade of experience working in startups as a solutions engineer, while also contributing to frontline support and customer success engineering. I have expertise in deploying and driving product adoption with complex security solutions in both the SIEM and identity spaces.
+  I have lead projects that include product research, customer analytics, establishing ETL pipelines, automated data generation for demo environments, and more.
+
+content:
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: Push Security
+        link: https://www.pushsecurity.com
+        link_text: pushsecurity.com
+        sub_title: Senior Solutions Engineer, Team Lead
+        caption: February 2023 - Present
+        description: |
+            In my current role, I serve multiple functions including Solutions Engineer, Customer Success Engineer, and Technical Support. I regularly present demos of the product and guide customers through our proving our product is valuable to customers. Once customers have purchased, I provide them with custom reports on their tenant utilizing Python, SQL (BigQuery), and AWS CloudWatch logs to help drive product adoption and show value. Many customers require custom solutions scripts, (most often Python, PowerShell, or Bash) to leverage the Push APIs and Webhooks in their environments.
+              
+              Other notable work
+              - Leading a research project analyzing stolen credentials on the dark web, which is now a product feature that provides additional telemetry for the Push platform.
+              - Creating and maintaining the backend infrastructure that generates realistic data for the demo environment.
+              - Creating and maintaing a public demo site with indicators of attack to showcase platform value to customers.
+
+      - layout: left
+        title: Panther Labs
+        link: https://www.panther.com
+        link_text: panther.com
+        sub_title: Senior Solutions Engineer, Team Lead
+        caption: August 2021 - February 2023
+        description: |
+            At Panther Labs, I filled comprehensive roles spanning Solutions Engineering, Customer Success Engineering, and Technical Support before these became dedicated positions within the organization. I presented customer demos, scoped and guided customers through proof-of-concepts.
+            
+            Working closely with customers, I facilitated Panther deployments using AWS, Python, and SQL, and wrote detections that were subsequently adopted by both customers and Panther's internal security team. I led QBRs for the Solutions Engineering organization and established metrics and reporting leadership. 
+            
+            A key achievement was creating Panther's initial ETL pipeline for internal analytics using Airflow, Snowflake, and AWS CloudWatch.
+      - layout: left
+        title: Duo Security
+        link: https://www.duo.com
+        link_text: duo.com
+        sub_title: Senior Solutions Engineer
+        caption: July 2018 - August 2021
+        description: |
+            During my tenure at Duo Security, I gained my first experiences as a Solutions Engineer and worked with hundreds of prospects to implement Duo in their environments and prepare them for company-wide deployment. I contributed to more than fifty pieces of internal documentation for engineer reference, and developed scripts using Python and PowerShell to automate processes using Duo APIs for both internal and customer use. I played an integral role in onboarding and mentoring new Duo engineers in the small market segment.
+      - layout: left
+        title: Meijer
+        link: https://www.meijer.com
+        link_text: meijer.com
+        sub_title: Business Intelligence Analyst / Scrum Master
+        caption: August 2016 - July 2018
+        description: |
+             At Meijery responsibilities included developing Power BI dashboards to streamline data access and enable data-driven decision-making, designing Teradata databases to support Power BI reports, and managing the development, support, and maintenance of ETL processes using PowerShell.
+
+             During my second year, I led a team of five people as a Scrum Master serving all business areas of the organization.
+  
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: Western Michigan University
+        caption: 2010 - 2013
+        sub_title: Computer Information Systems, Business Analytics
+
+  - title: A Little More About Me
+    layout: text
+    content: |
+      Alongside my interests in technology and security, some of my other interests and hobbies are:
+      - Camping, hiking, and being outdoors
+      - Brazilian Jiu-Jitsu and general fitness
+      - Automotive modification and repair
+# Footer
+footer_show_references: false
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
