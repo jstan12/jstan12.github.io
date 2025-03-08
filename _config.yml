@@ -9,7 +9,7 @@ darkmode: true
 
 # Personal info
 name: Joe Stanulis
-title: Senior Solutions Engineer
+# title: Head of Customer Engineering
 email: joe.stanulis@pm.me
 
 additional_links:
@@ -21,7 +21,7 @@ additional_links:
 about_title: About Me
 about_profile_image: images/profile.png
 about_content: |
-  Hi, my name's Joe and I'm a Senior Solutions Engineer with a almost a decade of experience working in startups as a solutions engineer, while also contributing to frontline support and customer success engineering. I have expertise in deploying and driving product adoption with complex security solutions in both the SIEM and identity spaces.
+  Hi, my name's Joe and I'm an engineer with a almost a decade of experience working in startups as a leader in solutions engineering, customer success engineering, and technical support. I have expertise in deploying and driving product adoption with complex security solutions in both the SIEM and identity spaces.
   I have lead projects that include product research, customer analytics, establishing ETL pipelines, automated data generation for demo environments, and more.
 
 content:
@@ -32,10 +32,10 @@ content:
         title: Push Security
         link: https://www.pushsecurity.com
         link_text: pushsecurity.com
-        sub_title: Senior Solutions Engineer, Team Lead
+        sub_title: Head of Customer Engineering
         caption: February 2023 - Present
         description: |
-            In my current role, I serve multiple functions including Solutions Engineer, Customer Success Engineer, and Technical Support. I regularly present demos of the product and guide customers through our proving our product is valuable to customers. Once customers have purchased, I provide them with custom reports on their tenant utilizing Python, SQL (BigQuery), and AWS CloudWatch logs to help drive product adoption and show value. Many customers require custom solutions scripts, (most often Python, PowerShell, or Bash) to leverage the Push APIs and Webhooks in their environments.
+            In my current role, I lead and serve multiple functions including Solutions Engineer, Customer Success Engineer, and Technical Support. I regularly present demos of the product and guide customers through our proving our product is valuable to customers. Once customers have purchased, I provide them with custom reports on their tenant utilizing Python, SQL (BigQuery), and AWS CloudWatch logs to help drive product adoption and show value. Many customers require custom solutions scripts, (most often Python, PowerShell, or Bash) to leverage the Push APIs and Webhooks in their environments.
               
               Other notable work
               - Leading a research project analyzing stolen credentials on the dark web, which is now a product feature that provides additional telemetry for the Push platform.
