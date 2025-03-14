@@ -19,7 +19,7 @@ additional_links:
 
 # About Section
 about_title: About Me
-about_profile_image: images/profile.png
+# about_profile_image: images/profile.png
 about_content: |
   Hi, my name's Joe and I'm an engineer with a almost a decade of experience working in startups as a leader in solutions engineering, customer success engineering, and technical support. I have expertise in deploying and driving product adoption with complex security solutions in both the SIEM and identity spaces.
   I have lead projects that include product research, customer analytics, establishing ETL pipelines, automated data generation for demo environments, and more.
